@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    }
+
+#header table {
+    width: 100%;
+    }
+#header td {
+    width: 33%;
+    }
+#header {
+    border: 1px #000000 solid;
+    text-align: center;
+    }
+#header img {
+    width: 250px;
+    }
+
+#navigation table{
+    border-collapse: collapse;
+    width: 100%;
+    }
+#navigation td {
+    border: 1px #000000 solid;
+    text-align: center;
+    background-color: #66CCFF;
+    width: 25%;
+    }
+#navigation .chosen {
+    background-color: #3366FF;
+    font-weight: bold;
+    }

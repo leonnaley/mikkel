@@ -1,0 +1,57 @@
+<!--<meta http-equiv="refresh" content="2"> -->
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <div id="header">
+            <table>
+                <tr>
+                    <td></td>
+                    <td>
+                        Bitchacho's Tips&Tricks <br>
+                        for minecraft PVP
+                    </td>
+                    <td>
+                        <img src="assets\knight.jpg"></img>
+                    </td
+                </tr>
+            </table>
+        </div>
+
+        <div id="navigation">
+            <table>
+                <tr>
+                    <td id="homebutton" class="chosen" onclick="fChangeContentTo('home')">Home</td>
+                    <td id="souppvpbutton" onclick="fChangeContentTo('souppvp')">Soup PVP</td>
+                    <td id="potionpvpbutton" onclick="fChangeContentTo('potionpvp')">Potion PVP</td>
+                    <td id="contactmebutton" onclick="fChangeContentTo('contactme')">Contact Me</td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="content"></div>
+
+
+        <div class="content" id="home" style="display: none;">
+            This is the content of home
+        </div>
+
+
+        <div class="content" id="souppvp" style="display: none;">
+            This is the content of soup pvp
+        </div>
+
+
+        <div class="content" id="potionpvp" style="display: none;">
+            This is the content of potion pvp
+        </div>
+
+
+        <div class="content" id="contactme" style="display: none;">
+            This is the content of contact me
+        </div>
+
+    </body>
+    <script src=index.js></script>
+</html>
